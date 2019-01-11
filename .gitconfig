@@ -1,0 +1,14 @@
+[user]
+	email = jennowilde@gmail.com
+	name = Jenn Wilde
+[core]
+	editor = nano
+	autocrl = input
+	fileMode = true
+
+[color]
+	ui = true
+[format]
+	pretty = oneline
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
