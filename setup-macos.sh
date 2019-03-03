@@ -1,11 +1,11 @@
 #!/bin/bash
 
 function install() {
-	brew install $1 || { echo 'failed to install' $1; exit 1; }
+  brew install $1 || { echo 'failed to install' $1; exit 1; }
 }
 
 function install_cask() {
-	brew cask install $1 || { echo 'failed to install' $1; exit 1; }
+  brew cask install $1 || { echo 'failed to install' $1; exit 1; }
 }
 
 echo 'installing macos setup'
@@ -23,65 +23,47 @@ install openssl
 install_cask iterm2
 
 # utilities
-install clang-format
 install_cask cscreen
 install hub
 install tree
 
 # languages
 install node
-install ruby
 install python
-install cling
 install rust
 
 # tools
 install meson
+install cmake
 install postgresql
-install heroku/brew/heroku
-install_cask ngrok
 
-# GUI apps
-# utilities
-install_cask spotify
-
-# browsers
+# misc apps
 install_cask firefox
-install_cask opera
+install_cask rambox
+install_cask spotify
 
 # development
 install_cask itch
 install_cask blender
-install_cask gitkraken
-
-# engines
+install_cask github
 install_cask twine
 install_cask unity-hub
-#install_cask epic-games
-
-# communication
-install_cask discord
-
-# tools
-install_cask postman
-install_cask postico
-
-# editors
+install_cask epic-games
 install_cask visual-studio
 install_cask visual-studio-code
+install_cask pgadmin4
 
 # code extensions
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension dzannotti.vscode-babel-coloring
-code --install-extension ecmel.vscode-html-css
-code --install-extension file-icons.file-icons
-code --install-extension kalitaalexey.vscode-rust
-code --install-extension ms-vscode.cpptools
 code --install-extension nathanridley.autotrim
+code --install-extension dzannotti.vscode-babel-coloring
+code --install-extension bungcip.better-toml
+code --install-extension ms-vscode.cpptools
 code --install-extension naumovs.color-highlight
-code --install-extension xaver.clang-format
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension file-icons.file-icons
+code --install-extension ecmel.vscode-html-css
+code --install-extension rust-lang.rust
+code --install-extension wayou.vscode-todo-highlight
 
 # BE FREE MY PRETTIES
-./release.sh
-
-# don't forget: pico8
+./utility/release.sh

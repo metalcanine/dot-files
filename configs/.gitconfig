@@ -1,14 +1,18 @@
 [user]
-	email = jennowilde@gmail.com
-	name = Jenn Wilde
+	name = juniper wilde
+	email = juniper.r.wilde@gmail.com
 [core]
 	editor = nano
 	autocrl = input
 	fileMode = true
-
 [color]
 	ui = true
 [format]
 	pretty = oneline
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
