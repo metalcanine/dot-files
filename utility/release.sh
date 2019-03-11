@@ -1,7 +1,12 @@
 #!/bin/bash
 
 echo 'releasing dot files, be free my children'
-cp ./configs/.bash_profile ~/.bash_profile
+case "$(uname -s)" in
+  Linux*)   cp ./configs/.lin_bash_profile ~/.bash_profile;;
+  Darwin*)  cp ./configs/.mac_bash_profile ~/.bash_profile;;
+  MINGW*)   cp ./configs/.win_bash_profile ~/.bash_profile;;
+esac
+
 cp ./configs/.gitconfig ~/.gitconfig
 
 case "$(uname -s)" in
