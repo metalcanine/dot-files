@@ -16,10 +16,11 @@
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": false,
   "files.trimTrailingWhitespace": true,
+  "simpleIcons.simple.folder.color": "#55bcbe",
   "telemetry.enableTelemetry": false,
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "terminal.integrated.shellArgs.windows": ["-l"],
-  "workbench.iconTheme": "file-icons",
+  "workbench.iconTheme": "simple-icons",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Solarized Dark",
+  "workbench.colorTheme": "Solarized Dark"
 }
