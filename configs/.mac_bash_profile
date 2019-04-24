@@ -24,3 +24,5 @@ function parse_git_branch() {
 }
 
 export PS1="\[\033[38m\]\u @ \h ❤ \[\033[32m\]\w \[\033[31m\]\`parse_git_branch\` \[\033[37m\]$\[\033[00m\] "
+
+export PATH="$HOME/.cargo/bin:$PATH"
