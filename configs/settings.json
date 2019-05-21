@@ -10,7 +10,6 @@
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
   "editor.rulers": [80],
-  "eslint.packageManager": "npm",
   "explorer.openEditors.visible": 0,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -28,4 +27,14 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.statusBar.feedback.visible": false,
 }
