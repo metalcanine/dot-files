@@ -20,7 +20,7 @@ brew update
 install openssl
 
 # shell
-install_cask iterm2
+# install_cask terminus?
 
 # utilities
 install_cask cscreen
@@ -43,15 +43,9 @@ install_cask rambox
 install_cask spotify
 
 # development
-install_cask itch
-install_cask blender
 install_cask github
-install_cask twine
-install_cask unity-hub
-install_cask epic-games
-install_cask visual-studio
 install_cask visual-studio-code
-install_cask pgadmin4
+install_cask postico
 
 # code extensions
 code --install-extension nathanridley.autotrim
@@ -59,9 +53,13 @@ code --install-extension dzannotti.vscode-babel-coloring
 code --install-extension bungcip.better-toml
 code --install-extension ms-vscode.cpptools
 code --install-extension naumovs.color-highlight
-code --install-extension dbaeumer.vscode-eslint
 code --install-extension file-icons.file-icons
+code --install-extension mrcrowl.hg
+code --install-extension jolaleye.horizon-theme-vscode
 code --install-extension ecmel.vscode-html-css
+code --install-extension mythmon.idl
+code --install-extension esbenp.prettier-vscode
+code --install-extension ms-python.python
 code --install-extension rust-lang.rust
 code --install-extension wayou.vscode-todo-highlight
 
