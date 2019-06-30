@@ -23,7 +23,7 @@
   "terminal.integrated.shellArgs.windows": ["-l"],
   "workbench.iconTheme": "simple-icons",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "SynthWave '84",
+  "workbench.colorTheme": "Horizon",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
