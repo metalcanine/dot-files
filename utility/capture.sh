@@ -2,9 +2,9 @@
 
 echo "rounding up my dot file children"
 case "$(uname -s)" in
-  Linux*)   cp ~/.bashrc ./configs/.lin_bashrc;;
-  Darwin*)  cp ~/.bash_profile ./configs/.mac_bash_profile;;
-  MINGW*)   cp ~/.bash_profile ./configs/.win_bash_profile;;
+  Linux*)   cp ~/.bashrc ./configs/.bashrc;;
+  Darwin*)  cp ~/.zshrc ./configs/.zshrc;;
+  MINGW*)   cp ~/.bash_profile ./configs/.bash_profile;;
 esac
 
 cp ~/.gitconfig ./configs/.gitconfig
