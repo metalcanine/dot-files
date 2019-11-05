@@ -3,20 +3,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:./node_modules/.bin"
 export PATH="$PATH:/usr/local/Cellar/arcanist/bin/"
 
-export CLICOLOR=1
-export LSCOLORS=ExFxCxDxBxegedabagacad
-
-export LANG=en_US.UTF-8
-
-export EDITOR='nano'
-
-# common useful aliases
-alias ls="ls -GFh"
-alias ll="ls -al"
-alias grep="grep -n"
-alias cscreenlarge="cscreen -x 2880 -y 1800"
-alias cscreensmall="cscreen -x 2048 -y 1080"
-
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/jewilde/.oh-my-zsh"
 
@@ -46,3 +32,17 @@ export UPDATE_ZSH_DAYS=2
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+export LANG=en_US.UTF-8
+
+export EDITOR='nano'
+
+# common useful aliases
+alias ls="ls -GFh"
+alias ll="ls -al"
+alias grep="grep -n"
+alias cscreenlarge="cscreen -x 2880 -y 1800"
+alias cscreensmall="cscreen -x 2048 -y 1080"

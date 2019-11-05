@@ -2,9 +2,9 @@
 
 echo 'releasing dot files, be free my children'
 case "$(uname -s)" in
-  Linux*)   cp ./configs/.lin_bashrc ~/.bashrc;;
-  Darwin*)  cp ./configs/.mac_bash_profile ~/.bash_profile;;
-  MINGW*)   cp ./configs/.win_bash_profile ~/.bash_profile;;
+  Linux*)   cp ./configs/.bashrc ~/.bashrc;;
+  Darwin*)  cp ./configs/.zshrc ~/.zshrc;;
+  MINGW*)   cp ./configs/.bash_profile ~/.bash_profile;;
 esac
 
 cp ./configs/.gitconfig ~/.gitconfig

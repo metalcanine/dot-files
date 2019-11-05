@@ -43,5 +43,5 @@
   },
   "workbench.statusBar.feedback.visible": false,
   "workbench.iconTheme": "simple-icons",
-  "mesonbuild.configureOnOpen": false
+  "mesonbuild.configureOnOpen": false,
 }
