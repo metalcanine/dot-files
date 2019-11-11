@@ -43,5 +43,6 @@
   },
   "workbench.statusBar.feedback.visible": false,
   "workbench.iconTheme": "simple-icons",
+  "workbench.colorTheme": "Witch Hazel",
   "mesonbuild.configureOnOpen": false,
 }
