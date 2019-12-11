@@ -8,6 +8,7 @@ case "$(uname -s)" in
 esac
 
 cp ~/.gitconfig ./configs/.gitconfig
+cp ~/.hgignore ./configs/.hgignore
 
 case "$(uname -s)" in
     Linux*)     cp ~/.config/Code/User/settings.json ./configs/settings.json;;

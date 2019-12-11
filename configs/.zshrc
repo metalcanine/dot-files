@@ -1,12 +1,13 @@
 export PATH="$HOME/.cargo/bin:$PATH"
-
 export PATH="$PATH:./node_modules/.bin"
-export PATH="$PATH:/usr/local/Cellar/arcanist/bin/"
+export PATH="$PATH:/usr/local/opt/llvm/bin"
+
+export PATH="$PATH:$HOME/Library/Application Support/Code/User/globalStorage/github.vscode-codeql/distribution1/codeql"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jewilde/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="agnoster"
+ZSH_THEME="bira"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

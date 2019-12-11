@@ -9,8 +9,6 @@ LANG=en_US.UTF-8
 alias ls="ls -GFh --color=auto -I '*ntuser.dat*' -I '*NTUSER.DAT*'"
 alias ll="ls -al"
 alias grep="grep -n"
-alias cscreenlarge="cscreen -x 2560 -y 1600"
-alias cscreensmall="cscreen -x 2048 -y 1080"
 
 function parse_git_branch() {
   BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
