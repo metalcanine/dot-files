@@ -10,12 +10,8 @@ sudo apt -y install hub
 sudo apt -y install tree
 
 # languages
-sudo apt -y  install nodejs
+sudo apt -y install nodejs
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-# tools
-sudo apt -y install meson
-sudo apt -y install cmake
 
 # development
 sudo snap -y install code
@@ -42,7 +38,8 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension ms-python.python
 code --install-extension rust-lang.rust
 code --install-extension wayou.vscode-todo-highlight
-code --install-extension theaflowers.witch-hazel
+code --install-extension equinusocio.vsc-material-theme
+code --install-extension equinusocio.vsc-material-theme-icons
 code --install-extension 13xforever.language-x86-64-assembly
 
 # BE FREE MY PRETTIES

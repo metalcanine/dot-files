@@ -24,7 +24,8 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension ms-python.python
 code --install-extension rust-lang.rust
 code --install-extension wayou.vscode-todo-highlight
-code --install-extension theaflowers.witch-hazel
+code --install-extension equinusocio.vsc-material-theme
+code --install-extension equinusocio.vsc-material-theme-icons
 code --install-extension 13xforever.language-x86-64-assembly
 
 # BE FREE MY PRETTIES

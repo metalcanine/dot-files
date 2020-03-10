@@ -45,5 +45,5 @@ export EDITOR='nano'
 alias ls="ls -GFh"
 alias ll="ls -al"
 alias grep="grep -n"
-alias cscreenlarge="cscreen -x 2880 -y 1800"
-alias cscreensmall="cscreen -x 2048 -y 1080"
+alias cscreenlarge="cscreen -x 2560 -y 1600"
+alias cscreensmall="cscreen -x 2048 -y 1280"

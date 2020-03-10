@@ -32,8 +32,6 @@
   "terminal.integrated.shellArgs.windows": ["-l"],
   "window.newWindowDimensions": "inherit",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Witch Hazel",
-  "workbench.iconTheme": "awoo",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -51,5 +49,7 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.colorTheme": "Material Theme High Contrast"
 }
