@@ -4,7 +4,7 @@
   "editor.tabSize": 2,
   "editor.scrollBeyondLastLine": false,
   "editor.fontWeight": "bold",
-  "editor.fontSize": 14,
+  "editor.fontSize": 12,
   "editor.lineHeight": 22,
   "editor.fontFamily": "Inconsolata, Menlo, Monaco, 'Courier New', monospace",
   "editor.insertSpaces": true,
@@ -51,5 +51,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.iconTheme": "eq-material-theme-icons",
-  "workbench.colorTheme": "Material Theme High Contrast"
+  "workbench.colorTheme": "Material Theme High Contrast",
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true
 }

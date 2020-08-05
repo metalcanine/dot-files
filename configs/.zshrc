@@ -1,6 +1,7 @@
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:./node_modules/.bin"
 export PATH="$PATH:/usr/local/opt/llvm/bin"
+export PATH="$PATH:$HOME/.poetry/env"
 
 export PATH="$PATH:$HOME/Library/Application Support/Code/User/globalStorage/github.vscode-codeql/distribution1/codeql"
 
